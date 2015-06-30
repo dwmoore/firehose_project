@@ -16,15 +16,10 @@ class LinkedListNode
     end
   end
 
-  def self.reverse_list(list)
-    # ADD CODE HERE
-    stack = Stack.new
-    while list
-      # ADD CODE HERE
-      stack.push(list)
+  def self.reverse_list(list, previous = nil)
+      reversed_list = LinkedListNode.new(list.value, previous)
+      return reversed_list if list.next_node.nil?
       list = list.next_node
-    end
-    # ADD CODE HERE
-    stack.pop
+      LinkedListNode.reverse_list(list, reversed_list)
   end
 end
