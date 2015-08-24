@@ -10,7 +10,7 @@ and
 Solutions for the above problems are in the
 [dm_linked_list_1](https://github.com/khundawg/firehose_project/tree/dm_linked_list_1/lib) and [dm_linked_list_2](https://github.com/khundawg/firehose_project/tree/dm_linked_list_2/lib) branches.
 
-Test are also available for the
+Tests are also available for the
 [stack](https://github.com/khundawg/firehose_project/tree/dm_linked_list_1/spec)
 and
 [mutation](https://github.com/khundawg/firehose_project/tree/dm_linked_list_2/spec) solutions.
@@ -25,7 +25,7 @@ you enjoy your time here!
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/firehose_project.
+Bug reports and pull requests are welcome on GitHub at https://github.com/khundawg/firehose_project.
 
 
 ## License
