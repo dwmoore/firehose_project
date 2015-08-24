@@ -1,34 +1,27 @@
 # FirehoseProject
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/firehose_project`. To experiment with that code, run `bin/console` for an interactive prompt.
+Thanks for stopping by! This repo is for a whiteboard project involving linked
+lists. For a complete overview of the requirements, please see:
 
-TODO: Delete this and the text above, and describe your gem
+[Reversing a linked list via stack](https://gist.github.com/khundawg/1ee8e9b116b48e784bf3)
+and
+[Reversing a linked list via mutation](https://gist.github.com/khundawg/b7e475535dd0122ef46f)
 
-## Installation
+Solutions for the above problems are in the
+[dm_linked_list_1](https://github.com/khundawg/firehose_project/tree/dm_linked_list_1/lib) and [dm_linked_list_2](https://github.com/khundawg/firehose_project/tree/dm_linked_list_2/lib) branches.
 
-Add this line to your application's Gemfile:
+Test are also available for the
+[stack](https://github.com/khundawg/firehose_project/tree/dm_linked_list_1/spec)
+and
+[mutation](https://github.com/khundawg/firehose_project/tree/dm_linked_list_2/spec) solutions.
 
-```ruby
-gem 'firehose_project'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install firehose_project
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem isn't going to solve many of your problems but it will allow you to
+see how I approached this problem. I hope this helps you in some way and that
+you enjoy your time here!
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake rspec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
